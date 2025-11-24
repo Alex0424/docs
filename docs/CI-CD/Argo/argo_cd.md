@@ -70,7 +70,7 @@ kubectl -n argocd apply -f ./install.yaml
 
 Option 2: Save as file
 
-It's better becouse then manifest won't change if there is new update and also you would be able to see if there is any suspecios info in the yaml content.
+It's better because then manifest won't change if there is new update and also you would be able to see if there is any suspicious info in the yaml content.
 
 ```shell
 curl -o install.yaml https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml

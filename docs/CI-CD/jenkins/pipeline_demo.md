@@ -24,6 +24,6 @@ Prerequisites:
 - Pipeline
   - Definition: `Pipeline script from SCM`
     - SCM: `Git`
-      - Repository URL: `https://github.com/Alex0424/CI-CD.git`
+      - Repository URL: `https://github.com/Alex0424/Jenkins.git`
       - Branch: `*/main`
   - Script Path: `jenkins/pipeline/Jenkinsfile`
