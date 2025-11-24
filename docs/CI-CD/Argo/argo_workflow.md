@@ -3,11 +3,11 @@
 ## Three Values
 
 - Designed to be cloud native.
-  - Full potential for Kubernetes.
+    - Full potential for Kubernetes.
 - Perform machine learning operations
-  - set of task in a workflow (CI-CD pipelines).
+    - set of task in a workflow (CI-CD pipelines).
 - Open source.
-  - Dedicated contributors.
+    - Dedicated contributors.
 
 ## [Introduction](https://youtu.be/UMaivwrAyTA)
 
@@ -28,6 +28,7 @@ git clone https://github.com/repo-with-workflow
 ```shell
 cat workflows/silly.yaml
 ```
+
 ```yml
 apiVersion: argoproj:io/v1alpha1
 kind: Workflow
@@ -100,6 +101,7 @@ There is another way to specify how things should run and what comes after what,
 In yaml files all the task that you specify will be executed at the same time (parallel) unless you add a key-value `dependencies: \n- task-a`
 
 Example:
+
 ```yaml
 - name: task-b
   template: my-task
@@ -159,6 +161,7 @@ tasks:
 ```
 
 The other file
+
 ```yml
 apiVersion: argoproj.io/v1alpha1
 kind: ClusterWorkflowTemplate
@@ -231,16 +234,19 @@ On the page select -> `worklows` -> `namespace: workflows`
 ### Good to Know
 
 ArgoCD put each task in a separate pod.
+
 - Potential problems: sharing state and volumes.
 - Powerfull: distribute the workload across the cluster.
 - Cron-job: calendar executed tasks
 
 Problem:
+
 - Isolation
 
 Solution:
+
 - Argo Events!!!
-  - Argo Events can listen to even sources and then trigger Argo Workflows (trigger).
-    - Combine with Argo CD
-    - Add Argo Rollouts to get progressive delivery.
+    - Argo Events can listen to even sources and then trigger Argo Workflows (trigger).
+        - Combine with Argo CD
+        - Add Argo Rollouts to get progressive delivery.
 - / Changes in git / on image push / on deploy / (bad option, its silly)

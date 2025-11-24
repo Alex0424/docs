@@ -5,6 +5,7 @@ Information here is based on this [YouTube video](https://youtu.be/yz3tyeA3Fe0?l
 ## Create Item
 
 ### There are six ways to create an item
+
 - Freestyle project. 
 - Pipeline
 - Multi-configuration project
@@ -15,11 +16,12 @@ Information here is based on this [YouTube video](https://youtu.be/yz3tyeA3Fe0?l
 ## Job options
 
 ### General
+
 - Discard old builds
 - GitHub project
 - `+ This project is parameterised` e.g.:
-  - `String Parameter`
-  - `Choice Parameter`
+    - `String Parameter`
+    - `Choice Parameter`
 - Throttle builds
 - Execute concurrent builds if necessary
 
@@ -27,18 +29,20 @@ Information here is based on this [YouTube video](https://youtu.be/yz3tyeA3Fe0?l
 
 
 ### Triggers
+
 - Trigger build remotely
-  - by refreshing a specific URL (e.g.: by a script)
+    - by refreshing a specific URL (e.g.: by a script)
 - Build after other projects are built
-  - Trigger after parent projects/jobs build is "stable"/"even if unstable"/"even if fails"
+    - Trigger after parent projects/jobs build is "stable"/"even if unstable"/"even if fails"
 - Build periodically
-  - Cron timeformat e.g.: `* * * * *`
+    - Cron timeformat e.g.: `* * * * *`
 - GitHub hook trigger for GITScm polling
 - Poll SCM
 
 ### Environment
+
 - Delete workspace before build starts
-  - Clear all files in the Jenkins runner job path environment e.g.: `/var/lib/jenkins/workspace/JavaHelloWorld`
+    - Clear all files in the Jenkins runner job path environment e.g.: `/var/lib/jenkins/workspace/JavaHelloWorld`
 
 ```
 ┌───────────── minute (0 - 59)
@@ -58,30 +62,32 @@ Information here is based on this [YouTube video](https://youtu.be/yz3tyeA3Fe0?l
 
 
 ### Build Steps
+
 - Execute Shell
 - Invoke Ant
 
 ### Post Build Actions
+
 - Build other project
-  - When complete run other projects(child projects/jobs) only if build is "stable"/"even if unstable"/"even if fails"
+    - When complete run other projects(child projects/jobs) only if build is "stable"/"even if unstable"/"even if fails"
 
 ## System
 
 `Jenkins` -> `Manage Jenkins` -> `System`
 
 - Environment variables
-  - add `name/key` & `value` attributes
+    - add `name/key` & `value` attributes
 - Usage Statistics
-  - Disable/Enable Jenkins statistics
+    - Disable/Enable Jenkins statistics
 - Time Stamper
-  - System clock format
+    - System clock format
 - Jenkins URL
-  - Switch domain
+    - Switch domain
 - Administrative monitors
-  - pick what warnings should be enabled
+    - pick what warnings should be enabled
 - System Admin e-mail address
 - GitHub Servers
-  - provide github servers credentials
+    - provide github servers credentials
 - Pipeline Configuration
 - Build-timeout Plugin > BuildStep Action
 
@@ -104,7 +110,7 @@ In your Jenkins Item configurations
 
 Other Options:
 - User the preinstalled plugin External E-mail
-  - It has more advanced features
+    - It has more advanced features
 
 ## Security
 
