@@ -56,6 +56,7 @@ nav:
   - AI:
     - INFO: ai/index.md
     - Fundamentals:
+      - Agents: ai/fundamentals/agents.md
       - AI Models: ai/fundamentals/ai_models.md
       - Neural Networks: ai/fundamentals/neural_networks.md
       - Deep Learning: ai/fundamentals/deep_learning.md
@@ -71,6 +72,20 @@ nav:
     - Coding with AI:
       - CLI: ai/coding_with_ai/cli.md
       - Process Flow: ai/coding_with_ai/process_flow.md 
+
+  - CI-CD:
+    - INFO: CI-CD/index.md
+    - Jenkins:
+      - Features: CI-CD/jenkins/features.md
+      - Jenkins CLI: CI-CD/jenkins/Jenkins_CLI.md
+      - Job DSL: CI-CD/jenkins/Job_DSL.md
+      - Pipeline Demo: CI-CD/jenkins/pipeline_demo.md
+      - Plugins: CI-CD/jenkins/plugins.md
+      - Slave Node: CI-CD/jenkins/slave_node.md
+    - Argo:
+      - Argo CD: CI-CD/Argo/argo_cd.md
+      - Argo Events: CI-CD/Argo/argo_events.md
+      - Argo Workflow: CI-CD/Argo/argo_workflow.md
 
   - Cybersecurity:
     - INFO: cybersecurity/index.md
@@ -97,6 +112,10 @@ nav:
       - Patchset: 'git/concepts/patchset.md'
       - Checkout vs Cherrypick: 'git/concepts/checkout_vs_cherrypick.md'
       - Merge vs Rebase: 'git/concepts/merge_vs_rebase.md'
+
+  - IDE:
+    - INFO: IDE/index.md
+    - VS Code: IDE/vscode.md
 
   - Kubernetes:
     - INFO: kubernetes/index.md

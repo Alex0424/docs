@@ -1,5 +1,16 @@
 # Volumes
 
+## PV | PVC | Storage class
+
+[Good video to watch](https://youtu.be/0swOh5C3OVM)
+
+```mermaid
+flowchart TD
+  SC[StorageClass] --provisions--> PV[PersistentVolume]
+  PVC[PersistentVolumeClaim] -- binds to --> PV
+  PVC --requests--> SC
+```
+
 ## Type of Volumes
 
 - awsElasticBlockStore
