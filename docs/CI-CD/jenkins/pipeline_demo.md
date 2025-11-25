@@ -30,3 +30,8 @@ Prerequisites:
             - Repository URL: `https://github.com/Alex0424/Jenkins.git`
             - Branch: `*/main`
     - Script Path: `jenkins/pipeline/Jenkinsfile`
+  - Definition: `Pipeline script from SCM`
+    - SCM: `Git`
+      - Repository URL: `https://github.com/Alex0424/Jenkins.git`
+      - Branch: `*/main`
+  - Script Path: `jenkins/pipeline/Jenkinsfile`
