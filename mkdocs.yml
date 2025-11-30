@@ -173,6 +173,12 @@ nav:
     - Boot: 'linux/boot.md'
     - Kernel: 'linux/kernel.md'
 
+  - Systems Integration:
+    - Middleware:
+        - INFO: systems_integration/middleware/index.md
+        - Message Broker:
+            - Rabbit MQ: systems_integration/middleware/message_broker/rabbit_mq.md
+
   - Networking:
     - INFO: networking/index.md
     - OSI: 'networking/OSI.md'
