@@ -98,20 +98,20 @@ nav:
       - SSH: git/clone/ssh.md
       - Swap HTTP <-> SSH: git/clone/swap_http_ssh.md
     - Commands:
-      - Bisect: 'git/commands/bisect.md'
-      - Branch: 'git/commands/branch.md'
-      - Checkout: 'git/commands/checkout.md'
-      - Default Commands: 'git/commands/default_commands.md'
-      - Diff: 'git/commands/diff.md'
-      - Log: 'git/commands/log.md'
-      - Status ui: 'git/commands/status_ui.md'
-      - Remote Repository: 'git/commands/remote_repository.md'
-      - Stash: 'git/commands/stash.md'
+      - Bisect: git/commands/bisect.md
+      - Branch: git/commands/branch.md
+      - Checkout: git/commands/checkout.md
+      - Default Commands: git/commands/default_commands.md
+      - Diff: git/commands/diff.md
+      - Log: git/commands/log.md
+      - Status ui: git/commands/status_ui.md
+      - Remote Repository: git/commands/remote_repository.md
+      - Stash: git/commands/stash.md
     - Concepts:
-      - Git config: 'git/concepts/git-config.md'
-      - Patchset: 'git/concepts/patchset.md'
-      - Checkout vs Cherrypick: 'git/concepts/checkout_vs_cherrypick.md'
-      - Merge vs Rebase: 'git/concepts/merge_vs_rebase.md'
+      - Git config: git/concepts/git-config.md
+      - Patchset: git/concepts/patchset.md
+      - Checkout vs Cherrypick: git/concepts/checkout_vs_cherrypick.md
+      - Merge vs Rebase: git/concepts/merge_vs_rebase.md
 
   - IDE:
     - INFO: IDE/index.md
@@ -156,22 +156,28 @@ nav:
 
   - Linux:
     - INFO: linux/index.md
-    - Archive: 'linux/archive.md'
-    - Commands: 'linux/commands.md'
-    - Crontab: 'linux/crontab.md'
-    - HTTP CRUD: 'linux/HTTP_CRUD.md'
-    - Env Var: 'linux/env_var.md'
-    - Filter: 'linux/filter.md'
-    - Path: 'linux/path.md'
-    - Permission: 'linux/permission.md'
-    - File System: 'linux/file_system.md'
-    - Services: 'linux/services.md'
-    - User: 'linux/user.md'
-    - Vim: 'linux/vim.md'
-    - GUI: 'linux/GUI.md'
-    - Distros: 'linux/distros.md'
-    - Boot: 'linux/boot.md'
-    - Kernel: 'linux/kernel.md'
+    - Archive: linux/archive.md
+    - Commands: linux/commands.md
+    - Crontab: linux/crontab.md
+    - HTTP CRUD: linux/HTTP_CRUD.md
+    - Env Var: linux/env_var.md
+    - Filter: linux/filter.md
+    - Path: linux/path.md
+    - Permission: linux/permission.md
+    - File System: linux/file_system.md
+    - Services: linux/services.md
+    - User: linux/user.md
+    - Vim: linux/vim.md
+    - GUI: linux/GUI.md
+    - Distros: linux/distros.md
+    - Boot: linux/boot.md
+    - Kernel: linux/kernel.md
+
+  - Computer Science:
+    - Data Representation:
+        - Number Bases: computer_science/data_representation/number_bases.md
+        - Signed Integer Formats: computer_science/data_representation/signed_integer_formats.md
+        - BCD: computer_science/data_representation/BCD.md
 
   - Systems Integration:
     - Middleware:
@@ -181,6 +187,6 @@ nav:
 
   - Networking:
     - INFO: networking/index.md
-    - OSI: 'networking/OSI.md'
-    - IP: 'networking/ip.md'
-    - Linux Commands: 'networking/linux_commands.md'
+    - OSI: networking/OSI.md
+    - IP: networking/ip.md
+    - Linux Commands: networking/linux_commands.md
