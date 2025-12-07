@@ -156,6 +156,7 @@ nav:
 
   - Linux:
     - INFO: linux/index.md
+    - Bash Scripting: linux/bash_scripting.md
     - Archive: linux/archive.md
     - Commands: linux/commands.md
     - Crontab: linux/crontab.md
@@ -172,6 +173,12 @@ nav:
     - Distros: linux/distros.md
     - Boot: linux/boot.md
     - Kernel: linux/kernel.md
+    - Text Processing:
+        - AWK: linux/text_processing.md/awk.md
+        - Cut: linux/text_processing.md/cut.md
+        - JQ: linux/text_processing.md/jq.md
+        - Regex: linux/text_processing.md/regex.md
+        - SED: linux/text_processing.md/sed.md
 
   - Computer Science:
     - Data Representation:
