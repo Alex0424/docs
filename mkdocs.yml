@@ -45,51 +45,32 @@ markdown_extensions:
 nav:
   - INFO: index.md
 
-  - Agile:
-    - INFO: agile/index.md
-    - Fundamentals:
-      - Introduction: agile/fundamentals/introduction.md
-      - Agile Principles: agile/fundamentals/principles.md
-      - Scrum Framework: agile/fundamentals/scrum-framework.md
-      - Agile vs DevOps: agile/fundamentals/agile-vs-devops.md
-
-  - AI:
-    - INFO: ai/index.md
-    - Fundamentals:
-      - Agents: ai/fundamentals/agents.md
-      - AI Models: ai/fundamentals/ai_models.md
-      - Neural Networks: ai/fundamentals/neural_networks.md
-      - Deep Learning: ai/fundamentals/deep_learning.md
-      - General AI: ai/fundamentals/general_ai.md
-      - Generative AI: ai/fundamentals/generative_ai.md
-      - Hallucinations: ai/fundamentals/hallucinations.md
-      - Machine Learning: ai/fundamentals/machine_learning.md
-      - Machine Learning Types: ai/fundamentals/machine_learning_types.md
-      - Narrow AI: ai/fundamentals/narrow_ai.md
-      - Prompt: ai/fundamentals/prompt.md
-      - RAG: ai/fundamentals/rag.md
-      - Super AI: ai/fundamentals/super_ai.md
-    - Coding with AI:
-      - CLI: ai/coding_with_ai/cli.md
-      - Process Flow: ai/coding_with_ai/process_flow.md 
-
-  - CI-CD:
-    - INFO: CI-CD/index.md
-    - Jenkins:
-      - Features: CI-CD/jenkins/features.md
-      - Jenkins CLI: CI-CD/jenkins/Jenkins_CLI.md
-      - Job DSL: CI-CD/jenkins/Job_DSL.md
-      - Pipeline Demo: CI-CD/jenkins/pipeline_demo.md
-      - Plugins: CI-CD/jenkins/plugins.md
-      - Slave Node: CI-CD/jenkins/slave_node.md
-    - Argo:
-      - Argo CD: CI-CD/Argo/argo_cd.md
-      - Argo Events: CI-CD/Argo/argo_events.md
-      - Argo Workflow: CI-CD/Argo/argo_workflow.md
-
-  - Cybersecurity:
-    - INFO: cybersecurity/index.md
-    - Threat Landscape: cybersecurity/threat-landscape.md
+  - Linux:
+    - INFO: linux/index.md
+    - Bash Scripting: linux/bash_scripting.md
+    - Math: linux/math.md
+    - Archive: linux/archive.md
+    - Commands: linux/commands.md
+    - Crontab: linux/crontab.md
+    - HTTP CRUD: linux/HTTP_CRUD.md
+    - Env Var: linux/env_var.md
+    - Filter: linux/filter.md
+    - Path: linux/path.md
+    - Permission: linux/permission.md
+    - File System: linux/file_system.md
+    - Services: linux/services.md
+    - User: linux/user.md
+    - Vim: linux/vim.md
+    - GUI: linux/GUI.md
+    - Distros: linux/distros.md
+    - Boot: linux/boot.md
+    - Kernel: linux/kernel.md
+    - Text Processing:
+        - AWK: linux/text_processing.md/awk.md
+        - Cut: linux/text_processing.md/cut.md
+        - JQ: linux/text_processing.md/jq.md
+        - Regex: linux/text_processing.md/regex.md
+        - SED: linux/text_processing.md/sed.md
 
   - Git:
     - INFO: git/index.md
@@ -113,9 +94,47 @@ nav:
       - Checkout vs Cherrypick: git/concepts/checkout_vs_cherrypick.md
       - Merge vs Rebase: git/concepts/merge_vs_rebase.md
 
-  - IDE:
-    - INFO: IDE/index.md
-    - VS Code: IDE/vscode.md
+  - CI-CD:
+    - INFO: CI-CD/index.md
+    - Jenkins:
+      - Features: CI-CD/jenkins/features.md
+      - Jenkins CLI: CI-CD/jenkins/Jenkins_CLI.md
+      - Job DSL: CI-CD/jenkins/Job_DSL.md
+      - Pipeline Demo: CI-CD/jenkins/pipeline_demo.md
+      - Plugins: CI-CD/jenkins/plugins.md
+      - Slave Node: CI-CD/jenkins/slave_node.md
+    - Argo:
+      - Argo CD: CI-CD/Argo/argo_cd.md
+      - Argo Events: CI-CD/Argo/argo_events.md
+      - Argo Workflow: CI-CD/Argo/argo_workflow.md
+
+  - AI:
+    - INFO: ai/index.md
+    - Fundamentals:
+      - Agents: ai/fundamentals/agents.md
+      - AI Models: ai/fundamentals/ai_models.md
+      - Neural Networks: ai/fundamentals/neural_networks.md
+      - Deep Learning: ai/fundamentals/deep_learning.md
+      - General AI: ai/fundamentals/general_ai.md
+      - Generative AI: ai/fundamentals/generative_ai.md
+      - Hallucinations: ai/fundamentals/hallucinations.md
+      - Machine Learning: ai/fundamentals/machine_learning.md
+      - Machine Learning Types: ai/fundamentals/machine_learning_types.md
+      - Narrow AI: ai/fundamentals/narrow_ai.md
+      - Prompt: ai/fundamentals/prompt.md
+      - RAG: ai/fundamentals/rag.md
+      - Super AI: ai/fundamentals/super_ai.md
+    - Coding with AI:
+      - CLI: ai/coding_with_ai/cli.md
+      - Process Flow: ai/coding_with_ai/process_flow.md
+
+  - Agile:
+    - INFO: agile/index.md
+    - Fundamentals:
+      - Introduction: agile/fundamentals/introduction.md
+      - Agile Principles: agile/fundamentals/principles.md
+      - Scrum Framework: agile/fundamentals/scrum-framework.md
+      - Agile vs DevOps: agile/fundamentals/agile-vs-devops.md
 
   - Kubernetes:
     - INFO: kubernetes/index.md
@@ -154,31 +173,13 @@ nav:
         - Lens: kubernetes/lens.md
     - Cheat Sheet: kubernetes/cheatsheet.md
 
-  - Linux:
-    - INFO: linux/index.md
-    - Bash Scripting: linux/bash_scripting.md
-    - Archive: linux/archive.md
-    - Commands: linux/commands.md
-    - Crontab: linux/crontab.md
-    - HTTP CRUD: linux/HTTP_CRUD.md
-    - Env Var: linux/env_var.md
-    - Filter: linux/filter.md
-    - Path: linux/path.md
-    - Permission: linux/permission.md
-    - File System: linux/file_system.md
-    - Services: linux/services.md
-    - User: linux/user.md
-    - Vim: linux/vim.md
-    - GUI: linux/GUI.md
-    - Distros: linux/distros.md
-    - Boot: linux/boot.md
-    - Kernel: linux/kernel.md
-    - Text Processing:
-        - AWK: linux/text_processing.md/awk.md
-        - Cut: linux/text_processing.md/cut.md
-        - JQ: linux/text_processing.md/jq.md
-        - Regex: linux/text_processing.md/regex.md
-        - SED: linux/text_processing.md/sed.md
+  - Cybersecurity:
+    - INFO: cybersecurity/index.md
+    - Threat Landscape: cybersecurity/threat-landscape.md
+
+  - IDE:
+    - INFO: IDE/index.md
+    - VS Code: IDE/vscode.md
 
   - Computer Science:
     - Data Representation:
