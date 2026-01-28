@@ -136,11 +136,6 @@ nav:
 
   - Agile:
     - INFO: agile/index.md
-    - Fundamentals:
-      - Introduction: agile/fundamentals/introduction.md
-      - Agile Principles: agile/fundamentals/principles.md
-      - Scrum Framework: agile/fundamentals/scrum-framework.md
-      - Agile vs DevOps: agile/fundamentals/agile-vs-devops.md
 
   - Kubernetes:
     - INFO: kubernetes/index.md
