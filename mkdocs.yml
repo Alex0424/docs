@@ -61,16 +61,18 @@ nav:
     - Services: linux/services.md
     - User: linux/user.md
     - Vim: linux/vim.md
-    - GUI: linux/GUI.md
     - Distros: linux/distros.md
     - Boot: linux/boot.md
     - Kernel: linux/kernel.md
+    - GUI:
+      - GUI: linux/GUI/GUI.md
+      - Hyprland: linux/GUI/hyprland.md
     - Text Processing:
-        - AWK: linux/text_processing.md/awk.md
-        - Cut: linux/text_processing.md/cut.md
-        - JQ: linux/text_processing.md/jq.md
-        - Regex: linux/text_processing.md/regex.md
-        - SED: linux/text_processing.md/sed.md
+      - AWK: linux/text_processing.md/awk.md
+      - Cut: linux/text_processing.md/cut.md
+      - JQ: linux/text_processing.md/jq.md
+      - Regex: linux/text_processing.md/regex.md
+      - SED: linux/text_processing.md/sed.md
 
   - Git:
     - INFO: git/index.md
