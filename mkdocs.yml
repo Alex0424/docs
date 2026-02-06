@@ -47,6 +47,15 @@ nav:
 
   - Linux:
     - INFO: linux/index.md
+    - GUI:
+      - GUI: linux/GUI/GUI.md
+      - Hyprland: linux/GUI/hyprland.md
+    - Text Processing:
+      - AWK: linux/text_processing.md/awk.md
+      - Cut: linux/text_processing.md/cut.md
+      - JQ: linux/text_processing.md/jq.md
+      - Regex: linux/text_processing.md/regex.md
+      - SED: linux/text_processing.md/sed.md
     - Bash Scripting: linux/bash_scripting.md
     - Math: linux/math.md
     - Archive: linux/archive.md
@@ -64,15 +73,6 @@ nav:
     - Distros: linux/distros.md
     - Boot: linux/boot.md
     - Kernel: linux/kernel.md
-    - GUI:
-      - GUI: linux/GUI/GUI.md
-      - Hyprland: linux/GUI/hyprland.md
-    - Text Processing:
-      - AWK: linux/text_processing.md/awk.md
-      - Cut: linux/text_processing.md/cut.md
-      - JQ: linux/text_processing.md/jq.md
-      - Regex: linux/text_processing.md/regex.md
-      - SED: linux/text_processing.md/sed.md
 
   - Git:
     - INFO: git/index.md

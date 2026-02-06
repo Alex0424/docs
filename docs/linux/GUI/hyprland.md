@@ -9,6 +9,8 @@ hyprctl reload
 
 ## Waybar
 
+![waybar](../img/waybar.png)
+
 ```
 nvim ~/.config/waybar/ .
 ```
@@ -17,8 +19,14 @@ nvim ~/.config/waybar/ .
 
 ## Monitors
 
+![three](../img/3_monitors.png)
+
 ```
 nvim .config/hypr/hyprland.conf
+```
+```
+# Get positions:
+hyprctl monitors
 ```
 ```
 # See https://wiki.hyprland.org/Configuring/Monitors/
@@ -60,4 +68,40 @@ amixer set Master 70%,18%
 
 ```
 exec-once = amixer set Master 70%,18%
+```
+
+## File Manager TUI
+
+![ranger](../img/ranger.png)
+
+```
+sudo dnf install ranger
+```
+```
+nvim .config/hypr/hyprland.conf
+```
+```
+ranger
+```
+```
+$fileManager = kitty ranger
+```
+```
+ranger --copy-config=all # Optional
+```
+```
+nvim ~/.config/ranger/rc.conf
+```
+```
+# Find each var in config file and the value:
+set show_hidden true
+set preview_images true
+set preview_images_method kitty
+```
+```
+# Make sure this is added
+export EDITOR='nvim' # This is required to use neovim as EDITOR in Ranger
+# Add to sys-wide-var file (not hyprland or .bashrc config because it will not work):
+# !Warning: check command before you apply!
+echo 'EDITOR=nvim' >> /etc/environment # apply system-wide var since adding var to .bashrc will not work
 ```
