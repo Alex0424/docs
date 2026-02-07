@@ -9,7 +9,7 @@ hyprctl reload
 
 ## Waybar
 
-![waybar](../img/waybar.png)
+![Waybar image](../img/waybar.png)
 
 ```
 nvim ~/.config/waybar/ .
@@ -19,7 +19,7 @@ nvim ~/.config/waybar/ .
 
 ## Monitors
 
-![three](../img/3_monitors.png)
+![3x screens image](../img/3_monitors.png)
 
 ```
 nvim .config/hypr/hyprland.conf
@@ -34,6 +34,38 @@ hyprctl monitors
 monitor=HDMI-A-6, 1920x1080, 0x0, 1 # Left
 monitor=DP-4, 1920x1080, 1920x0, 1  # Middle
 monitor=DP-3, 1920x1080, 3840x0, 1  # Right
+```
+
+## App Launcher
+
+### Chose you app starter [here](https://wiki.hypr.land/Useful-Utilities/App-Launchers/)
+
+I'm using [Wofi](https://hg.sr.ht/~scoopta/wofi)
+
+### Install Wofi
+
+```
+dnf install wofi
+```
+
+Add a Wofi flavour example: https://github.com/quantumfate/wofi
+
+Apply flavour to style.css:
+
+```
+nvim ~/.config/wofi/style.css
+```
+
+Add keybind for hyprland:
+
+```
+nvim .config/hypr/hyprland.conf
+```
+```
+### MY PROGRAMS ###
+$menu = wofi --show drun
+### KEYBINDINGS ###
+bind = $mainMod, E, exec, $menu
 ```
 
 ## Default App Entry
@@ -72,7 +104,7 @@ exec-once = amixer set Master 70%,18%
 
 ## File Manager TUI
 
-![ranger](../img/ranger.png)
+![Ranger image](../img/ranger.png)
 
 ```
 sudo dnf install ranger
