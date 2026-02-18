@@ -1,0 +1,5 @@
+# Load Average
+
+```sh
+uptime
+```

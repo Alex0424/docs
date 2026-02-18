@@ -1,0 +1,35 @@
+# ls command - List current directory files
+
+## Flags
+
+### ls
+
+list dir contents
+
+input:
+
+```sh
+ls
+```
+
+output:
+
+```sh
+DEMO_DIR  demo_file
+```
+
+### ls -a
+
+including hidden starting with `.`
+
+```sh
+ls -a # or -all
+```
+
+### ls -A
+
+hidden files except . (current dir) and .. (previous dir)
+
+```sh
+ls -A # or --almost-all
+```
