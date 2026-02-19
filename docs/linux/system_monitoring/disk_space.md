@@ -2,9 +2,13 @@
 
 ## df
 
+### Space Usage
+
 ```sh
 df -h # --human-readable
 ```
+
+### Inode Usage
 
 ```sh
 df -i # --inodes

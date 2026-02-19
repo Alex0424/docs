@@ -30,8 +30,16 @@ ps -eo pid,user,comm,%mem --sort=-%mem | head
 
 ## Child processes
 
-Show Process tree:
+Show Process tree:
 
 ```sh
 ps -ejH
 ```
+
+## Kill
+
+```sh
+kill <PID_or_process_name>
+kill -9 <PID_or_PNAME>      # -9 = force
+```
+

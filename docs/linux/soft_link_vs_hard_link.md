@@ -3,7 +3,7 @@
 ## Soft Link
 
 - Soft link is a refference to a file.
-- Whatever is added in symlink file (child) or the child file will be added to parent file.
+- Whatever is added in symlink file (child) will be added to parent file and the other way around.
 - If parent file is removed then the child file content be unavailable.
 
 ```sh

@@ -19,31 +19,32 @@ Netid State   Recv-Q  Send-Q  Local Address:Port    Peer Address:Port
 ...
 ```
 
-Netid:
-  - shows network protocol type
-  - Example:
-    - tcp
-    - tcp6
+- `Netid`:
+    - shows network protocol type
+    - Example:
+        - tcp
+        - tcp6
+        - udp
 
-State:
-  - socket state
-  - Example:
-    - LISTEN
-    - CLOSED
-    - ESTAB
-      - established connection
+- `State`:
+    - socket state
+    - Example:
+        - LISTEN
+        - CLOSED
+        - ESTAB
+            - established connection
 
-Recv-Q
-  - amount of revieved bytes in queue
+- `Recv-Q`
+    - amount of revieved bytes in queue
 
-Send-Q
-  - amount of bytes sent but not but acknowledgment (ACK) not recieved from remote peer (ps output: Peer Address:Port).
+- `Send-Q`
+    - amount of bytes sent but not but acknowledgment (ACK) not recieved from remote peer (ps output: Peer Address:Port).
 
-Local Address:Port
-  - Local endpoint / IP on host machine
+- `Local Address:Port`
+    - Local endpoint / IP on host machine
 
-Peer Address:Port
-  - Remote endpoint / IP on client machine
+- `Peer Address:Port`
+    - Remote endpoint / IP on client machine
 
 #### Example
 
@@ -65,13 +66,13 @@ tcp   LISTEN  0       128     [::]:22               [::]:*
 ss -t
 ```
 
-### Scan with nmap
+### Scan all ports with nmap
 
 ```sh
 nmap localhost
 ```
 
-### Add/Remove with `ufw` (Uncomplicated Firewall)
+### Add/Remove port with `ufw` (Uncomplicated Firewall)
 
 #### Add port
 
@@ -95,15 +96,3 @@ ufw status
 ### Enable/Disable with Firewall-cmd (BETA)
 
 Work in progress here. More coming soon...
-
-#### Remove port
-#
-#```sh
-#sudo firewall-cmd --remove-service=ssh
-#```
-#
-#### Add port
-#
-#```sh
-#sudo firewall-cmd --add-service=ssh
-#```

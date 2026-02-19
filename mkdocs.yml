@@ -51,11 +51,18 @@ nav:
       - GUI: linux/GUI/GUI.md
       - Hyprland: linux/GUI/hyprland.md
     - Text Processing:
-      - AWK: linux/text_processing.md/awk.md
-      - Cut: linux/text_processing.md/cut.md
-      - JQ: linux/text_processing.md/jq.md
-      - Regex: linux/text_processing.md/regex.md
-      - SED: linux/text_processing.md/sed.md
+      - AWK: linux/text_processing/awk.md
+      - Cut: linux/text_processing/cut.md
+      - JQ: linux/text_processing/jq.md
+      - Regex: linux/text_processing/regex.md
+      - SED: linux/text_processing/sed.md
+    - System Monitoring:
+      - Processes: linux/system_monitoring/processes.md
+      - I/O: linux/system_monitoring/I-O.md
+      - Disk Space: linux/system_monitoring/disk_space.md
+      - Firewall: linux/system_monitoring/firewall.md
+      - Load Average: linux/system_monitoring/load_average.md
+      - RAM: linux/system_monitoring/ram.md
     - Bash Scripting: linux/bash_scripting.md
     - Math: linux/math.md
     - Archive: linux/archive.md
@@ -70,6 +77,8 @@ nav:
     - Services: linux/services.md
     - User: linux/user.md
     - Vim: linux/vim.md
+    - ls: linux/ls.md
+    - Hard VS Soft Link: linux/soft_link_vs_hard_link.md
     - Distros: linux/distros.md
     - Boot: linux/boot.md
     - Kernel: linux/kernel.md
@@ -201,3 +210,4 @@ nav:
     - OSI: networking/OSI.md
     - IP: networking/ip.md
     - Linux Commands: networking/linux_commands.md
+    - HTTPS/TLS: networking/https.md
