@@ -211,3 +211,37 @@ nav:
     - IP: networking/ip.md
     - Linux Commands: networking/linux_commands.md
     - HTTPS/TLS: networking/https.md
+
+  - Cloud Computing:
+    - INFO: ./cloud_computing/index.md
+    - Deployment Models: ./cloud_computing/deployment_models.md
+    - Service Models: ./cloud_computing/service_models.md
+  
+  - Cloud:
+    - INFO: cloud/index.md
+    - AWS:
+      - INFO: cloud/aws/index.md
+      - CLI Commands: cloud/aws/cli_commands.md
+      - CLI Setup: cloud/aws/CLI_Setup.md
+      - CloudWatch: cloud/aws/CloudWatch.md
+      - EC2: cloud/aws/EC2.md
+      - SSH Setup: cloud/aws/SSH_setup.md
+    - Azure:
+      - INFO: cloud/azure/index.md
+      - Create VM: cloud/azure/create_vm.md
+      - Logs: cloud/azure/logs.md
+    - GCP:
+      - INFO: cloud/gcp/index.md
+      - VM: cloud/gcp/vm.md
+
+  - IAC:
+    - INFO: IAC/index.md
+
+  - Monitoring:
+    - INFO: monitoring/index.md
+
+  - Backend:
+    - INFO: backend/index.md
+
+  - Frontend:
+    - INFO: frontend/index.md
