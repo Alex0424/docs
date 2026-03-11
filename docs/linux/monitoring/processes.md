@@ -40,6 +40,6 @@ ps -ejH
 
 ```sh
 kill <PID_or_process_name>
-kill -9 <PID_or_PNAME>      # -9 = force
+kill -9 <PID_or_PNAME>      # -9 = force, this might not kill a child process
 ```
 

@@ -47,44 +47,50 @@ nav:
 
   - Linux:
     - INFO: linux/index.md
+    - Core Commands: linux/commands.md
+    - Distros:
+      - Distros: linux/distros/distros.md
+    - Editors:
+      - Vim: linux/editors/vim.md
+    - File System:
+      - File System: linux/file_system/file_system.md
+      - ls: linux/file_system/ls.md
+      - Permission: linux/file_system/permission.md
+      - Hard vs Soft Links: linux/file_system/soft_link_vs_hard_link.md
     - GUI:
       - GUI: linux/GUI/GUI.md
       - Hyprland: linux/GUI/hyprland.md
+    - Monitoring:
+      - Disk: linux/monitoring/disk_space.md
+      - Firewall: linux/monitoring/firewall.md
+      - I/O: linux/monitoring/IO.md
+      - Load Average: linux/monitoring/load_average.md
+      - Processes: linux/monitoring/processes.md
+      - RAM: linux/monitoring/ram.md
+    - Shell:
+      - Bash Scripting: linux/shell/bash_scripting.md
+      - Env Var: linux/shell/env_var.md
+      - Path: linux/shell/path.md
+    - Storage:
+      - Disk Imaging:
+        - Write ISO to USB: linux/storage/disk_imaging/write_iso_to_usb.md
+    - System:
+      - Boot: linux/system/boot.md
+      - Kernel: linux/system/kernel.md
+      - Services: linux/system/services.md
+      - User: linux/system/user.md
     - Text Processing:
       - AWK: linux/text_processing/awk.md
       - Cut: linux/text_processing/cut.md
       - JQ: linux/text_processing/jq.md
       - Regex: linux/text_processing/regex.md
       - SED: linux/text_processing/sed.md
-    - System Monitoring:
-      - Processes: linux/system_monitoring/processes.md
-      - I/O: linux/system_monitoring/I-O.md
-      - Disk Space: linux/system_monitoring/disk_space.md
-      - Firewall: linux/system_monitoring/firewall.md
-      - Load Average: linux/system_monitoring/load_average.md
-      - RAM: linux/system_monitoring/ram.md
-    - Bash Scripting: linux/bash_scripting.md
-    - Math: linux/math.md
-    - Archive: linux/archive.md
-    - Commands: linux/commands.md
-    - Time: linux/time.md
-    - HTTP CRUD: linux/HTTP_CRUD.md
-    - Env Var: linux/env_var.md
-    - Filter: linux/filter.md
-    - Path: linux/path.md
-    - Permission: linux/permission.md
-    - File System: linux/file_system.md
-    - Services: linux/services.md
-    - User: linux/user.md
-    - Vim: linux/vim.md
-    - ls: linux/ls.md
-    - Hard VS Soft Link: linux/soft_link_vs_hard_link.md
-    - Distros: linux/distros.md
-    - Boot: linux/boot.md
-    - Kernel: linux/kernel.md
-    - Storage:
-      - Disk Imaging:
-        - Write ISO to USB: linux/storage/disk-imaging/write-iso-to-usb.md
+      - Text Filtering: linux/text_processing/text_filtering.md
+    - Utilities:
+      - Archive: linux/utilities/archive.md
+      - HTTP CRUD: linux/utilities/http_crud.md
+      - Math: linux/utilities/math.md
+      - Time: linux/utilities/time.md
 
   - Git:
     - INFO: git/index.md
@@ -103,24 +109,24 @@ nav:
       - Remote Repository: git/commands/remote_repository.md
       - Stash: git/commands/stash.md
     - Concepts:
-      - Git config: git/concepts/git-config.md
+      - Git config: git/concepts/git_config.md
       - Patchset: git/concepts/patchset.md
       - Checkout vs Cherrypick: git/concepts/checkout_vs_cherrypick.md
       - Merge vs Rebase: git/concepts/merge_vs_rebase.md
 
   - CI-CD:
-    - INFO: CI-CD/index.md
+    - INFO: ci_cd/index.md
     - Jenkins:
-      - Features: CI-CD/jenkins/features.md
-      - Jenkins CLI: CI-CD/jenkins/Jenkins_CLI.md
-      - Job DSL: CI-CD/jenkins/Job_DSL.md
-      - Pipeline Demo: CI-CD/jenkins/pipeline_demo.md
-      - Plugins: CI-CD/jenkins/plugins.md
-      - Slave Node: CI-CD/jenkins/slave_node.md
+      - Features: ci_cd/jenkins/features.md
+      - Jenkins CLI: ci_cd/jenkins/Jenkins_CLI.md
+      - Job DSL: ci_cd/jenkins/Job_DSL.md
+      - Pipeline Demo: ci_cd/jenkins/pipeline_demo.md
+      - Plugins: ci_cd/jenkins/plugins.md
+      - Slave Node: ci_cd/jenkins/slave_node.md
     - Argo:
-      - Argo CD: CI-CD/Argo/argo_cd.md
-      - Argo Events: CI-CD/Argo/argo_events.md
-      - Argo Workflow: CI-CD/Argo/argo_workflow.md
+      - Argo CD: ci_cd/Argo/argo_cd.md
+      - Argo Events: ci_cd/Argo/argo_events.md
+      - Argo Workflow: ci_cd/Argo/argo_workflow.md
   
   - Containerization:
     - Docker:
@@ -190,7 +196,7 @@ nav:
 
   - Cybersecurity:
     - INFO: cybersecurity/index.md
-    - Threat Landscape: cybersecurity/threat-landscape.md
+    - Threat Landscape: cybersecurity/threat_landscape.md
 
   - IDE:
     - INFO: IDE/index.md
@@ -221,13 +227,13 @@ nav:
     - Archive: windows/archive.md
     - Get Command: windows/get_command.md
 
-  - Cloud Computing:
-    - INFO: ./cloud_computing/index.md
-    - Deployment Models: ./cloud_computing/deployment_models.md
-    - Service Models: ./cloud_computing/service_models.md
-  
+ 
   - Cloud:
     - INFO: cloud/index.md
+    - Concepts:
+      - Deployment Models: cloud/concepts/deployment_models.md
+      - Service Models: cloud/concepts/service_models.md
+
     - AWS:
       - INFO: cloud/aws/index.md
       - CLI Commands: cloud/aws/cli_commands.md

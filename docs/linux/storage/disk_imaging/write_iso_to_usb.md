@@ -6,7 +6,7 @@
 lsblk --nodeps -o NAME,SIZE,TRAN,VENDOR,MODEL
 ```
 
-Example:
+Output Example:
 
 ```text
 NAME      SIZE TRAN   VENDOR   MODEL
