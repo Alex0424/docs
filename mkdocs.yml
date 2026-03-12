@@ -260,3 +260,4 @@ nav:
 
   - Frontend:
     - INFO: frontend/index.md
+    - Grid: frontend/grid.md
