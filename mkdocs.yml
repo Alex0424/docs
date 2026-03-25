@@ -118,6 +118,7 @@ nav:
     - INFO: ci_cd/index.md
     - Jenkins:
       - Features: ci_cd/jenkins/features.md
+      - Triggers: ci_cd/jenkins/triggers.md
       - Jenkins CLI: ci_cd/jenkins/Jenkins_CLI.md
       - Job DSL: ci_cd/jenkins/Job_DSL.md
       - Pipeline Demo: ci_cd/jenkins/pipeline_demo.md
