@@ -31,3 +31,9 @@ Create a copy and rename an image on local machine
 ```shell
 docker tag <OLD_NAME>:<OLD_TAG> <NEW_NAME>:<NEW_TAG>
 ```
+
+## Detail of an Image
+
+```shell
+docker inspect
+```

@@ -79,6 +79,7 @@ nav:
       - Kernel: linux/system/kernel.md
       - Services: linux/system/services.md
       - User: linux/system/user.md
+      - Groups: linux/system/groups.md
     - Text Processing:
       - AWK: linux/text_processing/awk.md
       - Cut: linux/text_processing/cut.md
@@ -134,6 +135,7 @@ nav:
       - Image: containerization/docker/image.md
       - Container: containerization/docker/container.md
       - Dockerfile: containerization/docker/docker_file.md
+      - Registries: containerization/docker/registries.md
 
   - AI:
     - INFO: ai/index.md
