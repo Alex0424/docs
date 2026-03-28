@@ -1,5 +1,6 @@
 site_name: Technology Documentation
 site_author: Alexander Lindholm
+docs_dir: docs
 site_url: https://docs.alexanderlindholm.net
 repo_url: https://github.com/Alex0424/docs
 
@@ -197,9 +198,10 @@ nav:
         - Lens: kubernetes/lens.md
     - Cheat Sheet: kubernetes/cheatsheet.md
 
-  - Cybersecurity:
-    - INFO: cybersecurity/index.md
-    - Threat Landscape: cybersecurity/threat_landscape.md
+  - Security:
+    - INFO: security/index.md
+    - Threat Landscape: security/threat_landscape.md
+    - Cryptography: security/cryptography.md
 
   - IDE:
     - INFO: IDE/index.md
