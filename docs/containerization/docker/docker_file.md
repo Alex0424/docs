@@ -1,7 +1,5 @@
 # [Dockerfile](https://docs.docker.com/reference/dockerfile/)
 
-WARN: Not sure if all info is correct here, double check with official docs!
-
 ## Dockerfile Instructions
 
 ### ENTRYPOINT vs CMD
@@ -70,6 +68,68 @@ It specifies the base image for the Dockerfile.
 
 ```shell
 FROM <IMAGE_NAME>:<TAG>
+```
+
+### RUN
+
+Execute commands in a new layer and commit the results.
+
+```sh
+RUN <bash command>
+```
+
+### LABELS
+
+Adds metadata to an image.
+
+### MAINTAINER
+
+Author of the image.
+
+### COPY
+
+Adds files and folders into image.
+
+### ADD
+
+Download from a link and put in the image (it can even archive and unarchive).
+
+### VOLUME
+
+Creates a mount point and mark it as external mount volume.
+
+### EXPOSE
+
+Active network ports at container runtime (not buildtime).
+
+### [USER](https://docs.docker.com/reference/dockerfile/#user)
+
+Sets the user name (or UID).
+
+### WORKDIR
+
+Set shell spawn location in directory.
+
+### [ONBUILD](https://docs.docker.com/reference/dockerfile/#onbuild)
+
+Adds to the image a trigger instruction to be executed at a later time.
+
+### [SHELL](https://docs.docker.com/reference/dockerfile/#shell)
+
+Set the default shell of an image e.g.: bash or sh.
+
+### [STOPSIGNAL](https://docs.docker.com/reference/dockerfile/#stopsignal)
+
+Defines which signal Docker sends to PID 1 in the container when stopping it.
+
+### [HEALTHCHECK](https://docs.docker.com/reference/dockerfile/#healthcheck)
+
+Tells Docker how to check if a container is still working correctly (healthy).
+
+Syntax:
+
+```
+HEALTHCHECK <options> CMD <shell-command>
 ```
 
 ## Create Dockerfile

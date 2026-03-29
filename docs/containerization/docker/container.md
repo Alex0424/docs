@@ -2,7 +2,7 @@
 
 ## Create and run container
 
-in detached (background) mode
+In detached (background) mode
 
 ```shell
 docker run -d --name <NAME> <IMAGE>
@@ -20,6 +20,12 @@ Create container and get inside container bash shell
 docker run -it --name <NAME> <IMAGE> /bin/bash
 # or using lightweight shell:
 docker run -it --name <NAME> <IMAGE> /bin/sh
+```
+
+Create and run with environment var
+
+```shell
+docker run -d -e MYSQL_ROOT_PASSWORD=<your_password> mysql:tag
 ```
 
 ## Start

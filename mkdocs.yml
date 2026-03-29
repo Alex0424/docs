@@ -132,10 +132,14 @@ nav:
       - Argo Workflow: ci_cd/Argo/argo_workflow.md
   
   - Containerization:
+    - INFO: containerization/index.md
     - Docker:
       - Image: containerization/docker/image.md
       - Container: containerization/docker/container.md
+      - Storage: containerization/docker/storage.md
       - Dockerfile: containerization/docker/docker_file.md
+      - Multistage Dockerfile: containerization/docker/multistage_dockerfile.md
+      - Docker Hub: containerization/docker/hub.md
       - Registries: containerization/docker/registries.md
 
   - AI:
