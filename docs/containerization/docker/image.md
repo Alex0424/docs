@@ -13,7 +13,7 @@ docker pull <NAME>:<TAG>
 Remove an image from local machine
 
 ```shell
-docker rmi <NAME>:<TAG>
+docker image rm <NAME>:<TAG>
 ```
 
 ## List
@@ -21,7 +21,7 @@ docker rmi <NAME>:<TAG>
 List all images on local machine
 
 ```shell
-docker images
+docker image ls
 ```
 
 ## Rename

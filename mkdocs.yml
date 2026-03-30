@@ -141,6 +141,7 @@ nav:
       - Multistage Dockerfile: containerization/docker/multistage_dockerfile.md
       - Docker Hub: containerization/docker/hub.md
       - Registries: containerization/docker/registries.md
+      - Compose: containerization/docker/compose.md
 
   - AI:
     - INFO: ai/index.md
