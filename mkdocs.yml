@@ -68,6 +68,8 @@ nav:
       - Load Average: linux/monitoring/load_average.md
       - Processes: linux/monitoring/processes.md
       - RAM: linux/monitoring/ram.md
+    - Troubleshooting:
+      - VM Troubleshooting: linux/troubleshooting/vm_troubleshooting.md
     - Shell:
       - Bash Scripting: linux/shell/bash_scripting.md
       - Env Var: linux/shell/env_var.md
@@ -237,7 +239,6 @@ nav:
     - Archive: windows/archive.md
     - Get Command: windows/get_command.md
 
- 
   - Cloud:
     - INFO: cloud/index.md
     - Concepts:
