@@ -244,6 +244,7 @@ nav:
     - Concepts:
       - Deployment Models: cloud/concepts/deployment_models.md
       - Service Models: cloud/concepts/service_models.md
+      - VPC: cloud/concepts/vpc.md
 
     - AWS:
       - INFO: cloud/aws/index.md
