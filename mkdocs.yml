@@ -47,7 +47,6 @@ nav:
   - INFO: index.md
 
   - Linux:
-    - INFO: linux/index.md
     - Core Commands: linux/commands.md
     - Distros:
       - Distros: linux/distros/distros.md

@@ -72,6 +72,76 @@ while :; do # same as while true but faster
 done
 ```
 
+## If Statements
+
+### `[ ]` - POSIX test (portable, works in `sh`)
+
+```bash
+if [ "$var" -eq 5 ]; then
+    echo "Equal to 5"
+fi
+
+if [ "$str" = "hello" ]; then    # use = not == for POSIX compliance
+    echo "Matched"
+fi
+```
+
+### `[[ ]]` - Bash extended test (recommended in bash scripts)
+
+```bash
+if [[ "$str" == "hello" ]]; then    # no word splitting/globbing, supports pattern matching
+    echo "Matched"
+fi
+
+if [[ "$str" =~ ^[0-9]+$ ]]; then   # regex matching
+    echo "Numeric"
+fi
+
+if [[ -f "$file" && -r "$file" ]]; then   # && / || work directly inside [[ ]]
+    echo "File exists and is readable"
+fi
+```
+
+### `(( ))` - Arithmetic evaluation
+
+```bash
+if (( var == 5 )); then        # C-style comparison, no $ needed on variables
+    echo "Equal to 5"
+fi
+
+if (( var > 0 && var < 10 )); then
+    echo "In range"
+fi
+```
+
+### `test` - Command form (identical to `[ ]`)
+
+```bash
+if test "$var" -eq 5; then
+    echo "Equal to 5"
+fi
+```
+
+### Common test flags
+
+```bash
+-e file   # exists
+-f file   # regular file
+-d file   # directory
+-r file   # readable
+-w file   # writable
+-x file   # executable
+-z string # string is empty
+-n string # string is non-empty
+```
+
+### Short-circuit form (no `if` block)
+
+```bash
+[ -f file.txt ] && echo "exists"     # runs on success
+[ -f file.txt ] || echo "missing"    # runs on failure
+```
+
 ## Exit Codes
 
 0 = Match Found / Success
