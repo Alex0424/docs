@@ -2,10 +2,14 @@ site_name: Technology Documentation
 site_author: Alexander Lindholm
 docs_dir: docs
 site_url: https://docs.alexanderlindholm.net
+repo_name: Alex0424/docs
 repo_url: https://github.com/Alex0424/docs
+edit_uri: edit/main/docs/
 
 theme:
   name: material
+  features:
+    - content.action.edit
   palette:
     # Palette toggle for dark mode
     - scheme: slate
