@@ -222,6 +222,8 @@ nav:
         - Number Bases: computer_science/data_representation/number_bases.md
         - Signed Integer Formats: computer_science/data_representation/signed_integer_formats.md
         - BCD: computer_science/data_representation/BCD.md
+    - Digital Logic:
+      - Logic Circuits: computer_science/digital_logic/logic_circuits.md
 
   - Systems Integration:
     - Middleware:
@@ -266,6 +268,11 @@ nav:
 
   - IAC:
     - INFO: IAC/index.md
+
+  - Database:
+    - INFO: database/index.md
+    - PostgreSQL:
+      - INFO: database/postgresql/index.md
 
   - Monitoring:
     - INFO: monitoring/index.md
